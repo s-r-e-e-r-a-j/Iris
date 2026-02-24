@@ -33,7 +33,7 @@ install_deps_debian() {
 }
 
 install_deps_arch() {
-    sudo pacman -Sy --noconfirm base-devel sdl2 sdl2_image
+    sudo pacman -Syu --noconfirm base-devel sdl2 sdl2_image
 }
 
 install_deps_rhel() {
